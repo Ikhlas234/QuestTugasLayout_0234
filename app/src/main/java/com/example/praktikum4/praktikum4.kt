@@ -1,11 +1,16 @@
 
-@Composable
-fun ActivitasPertama(modifier: Modifier = Modifier) {
-    Column(
-        modifier = modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Spacer(modifier = Modifier.height(20.dp))
 
+Text(
+text = stringResource(id = R.string.prodi),
+fontSize = 24.sp,
+fontWeight = FontWeight.Bold,
+color = colorResource(id = R.color.black)
+)
+Text(
+text = stringResource(id = R.string.univ),
+fontSize = 14.sp,
+fontWeight = FontWeight.Bold,
+color = colorResource(id = R.color.black)
+)
+
+Spacer(modifier = Modifier.height(24.dp))
